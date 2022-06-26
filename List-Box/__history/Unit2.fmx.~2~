@@ -1,0 +1,72 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 432
+  ClientWidth = 380
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    AutoSelect = True
+    DataDetectorTypes = []
+    Align = Bottom
+    Position.Y = 231.000000000000000000
+    Size.Width = 380.000000000000000000
+    Size.Height = 161.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 376.000000000000000000
+    Viewport.Height = 157.000000000000000000
+  end
+  object Button1: TButton
+    Align = Bottom
+    Position.Y = 392.000000000000000000
+    Size.Width = 380.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Ekle'
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 380.000000000000000000
+    Size.Height = 164.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 376.000000000000000000
+    Viewport.Height = 160.000000000000000000
+  end
+  object Rectangle1: TRectangle
+    Align = Bottom
+    Position.Y = 181.000000000000000000
+    Size.Width = 380.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Align = Bottom
+    Position.Y = 214.000000000000000000
+    Size.Width = 380.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'Text Here'
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Align = Top
+    Size.Width = 380.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'Your List'
+    TabOrder = 6
+  end
+end
