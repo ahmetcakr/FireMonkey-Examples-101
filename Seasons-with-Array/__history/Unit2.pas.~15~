@@ -1,0 +1,101 @@
+unit Unit2;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes,
+  System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Controls.Presentation, FMX.Edit;
+
+type
+  TForm2 = class(TForm)
+    Edit1: TEdit;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+  AylarDizisi: array [1 .. 12] of integer;
+  Aylar: array of String;
+
+implementation
+
+{$R *.fmx}
+
+procedure TForm2.Button1Click(Sender: TObject);
+var
+  i: Integer;
+begin
+    i := Edit1.Text;
+    case i of
+      1:
+        begin
+          ShowMessage('Ocak');
+          break;
+        end;
+      2:
+        begin
+          ShowMessage('Subat');
+          break;
+        end;
+      3:
+        begin
+          ShowMessage('Mart');
+          break;
+        end;
+      4:
+        begin
+          ShowMessage('Nisan');
+          break;
+        end;
+      5:
+        begin
+          ShowMessage('Mayýs');
+          break;
+        end;
+      6:
+        begin
+          ShowMessage('Haziran');
+          break;
+        end;
+      7:
+        begin
+          ShowMessage('Temmuz');
+          break;
+        end;
+      8:
+        begin
+          ShowMessage('Agustos');
+          break;
+        end;
+      9:
+        begin
+          ShowMessage('Eylül');
+          break;
+        end;
+      10:
+        begin
+          ShowMessage('Ekim');
+          break;
+        end;
+      11:
+        begin
+          ShowMessage('Kasým');
+          break;
+        end;
+      12:
+        begin
+          ShowMessage('Aralýk');
+
+        end;
+
+  end;
+end;
+
+end.

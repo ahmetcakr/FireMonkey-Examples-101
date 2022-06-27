@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.167,=C:\Users\ahmet\OneDrive\Belgeler\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022.06.27 10:59:10.722,=C:\Users\ahmet\OneDrive\Belgeler\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022.06.27 11:03:17.508,C:\Users\ahmet\OneDrive\Masaüstü\Work\YalinWorks\FireMonkey-Examples-101\Seasons-with-Datatypes\Unit2.pas=C:\Users\ahmet\OneDrive\Belgeler\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022.06.27 11:03:17.508,C:\Users\ahmet\OneDrive\Masaüstü\Work\YalinWorks\FireMonkey-Examples-101\Seasons-with-Datatypes\Unit2.fmx=C:\Users\ahmet\OneDrive\Belgeler\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2022.06.27 11:03:19.701,C:\Users\ahmet\OneDrive\Masaüstü\Work\YalinWorks\FireMonkey-Examples-101\Seasons-with-Datatypes\Project1.dproj=C:\Users\ahmet\OneDrive\Belgeler\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
