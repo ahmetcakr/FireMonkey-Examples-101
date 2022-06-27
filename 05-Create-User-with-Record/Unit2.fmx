@@ -1,0 +1,73 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListBox1: TListBox
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 636.000000000000000000
+    Viewport.Height = 196.000000000000000000
+  end
+  object CornerButton1: TCornerButton
+    Position.X = 240.000000000000000000
+    Position.Y = 360.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 121.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Show User'
+    XRadius = 30.000000000000000000
+    YRadius = 30.000000000000000000
+    OnClick = CornerButton1Click
+  end
+  object Label1: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 232.000000000000000000
+    Text = 'Ad'
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Position.X = 256.000000000000000000
+    Position.Y = 232.000000000000000000
+    Text = 'Soyad'
+    TabOrder = 4
+  end
+  object Label3: TLabel
+    Position.X = 464.000000000000000000
+    Position.Y = 232.000000000000000000
+    Text = 'Yas'
+    TabOrder = 5
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Position.X = 40.000000000000000000
+    Position.Y = 257.000000000000000000
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    Position.X = 256.000000000000000000
+    Position.Y = 257.000000000000000000
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 8
+    Position.X = 464.000000000000000000
+    Position.Y = 257.000000000000000000
+  end
+end
