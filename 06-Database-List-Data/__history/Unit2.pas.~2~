@@ -1,0 +1,34 @@
+unit Unit2;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, System.Rtti,
+  FMX.Grid.Style, Data.Bind.EngExt, Fmx.Bind.DBEngExt, Fmx.Bind.Grid,
+  System.Bindings.Outputs, Fmx.Bind.Editors, Data.Bind.Components,
+  Data.Bind.Grid, Data.Bind.DBScope, Data.DB, MemDS, DBAccess, MSAccess,
+  FMX.Controls.Presentation, FMX.ScrollBox, FMX.Grid;
+
+type
+  TForm2 = class(TForm)
+    MSConnection1: TMSConnection;
+    Grid1: TGrid;
+    MSQuery1: TMSQuery;
+    BindSourceDB1: TBindSourceDB;
+    BindingsList1: TBindingsList;
+    LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.fmx}
+
+end.
