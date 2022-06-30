@@ -1,0 +1,102 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Grid1: TGrid
+    Align = Top
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 640.000000000000000000
+    Size.Height = 273.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    RowCount = 1
+    Viewport.Width = 636.000000000000000000
+    Viewport.Height = 248.000000000000000000
+  end
+  object lblName: TLabel
+    Position.X = 120.000000000000000000
+    Position.Y = 320.000000000000000000
+    Text = 'Isim Soyisim :'
+    TabOrder = 1
+  end
+  object lblNumber: TLabel
+    Position.X = 328.000000000000000000
+    Position.Y = 320.000000000000000000
+    Text = 'Numara :'
+    TabOrder = 2
+  end
+  object editName: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 120.000000000000000000
+    Position.Y = 352.000000000000000000
+  end
+  object editNumber: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 328.000000000000000000
+    Position.Y = 352.000000000000000000
+  end
+  object btnAdd: TButton
+    Position.X = 232.000000000000000000
+    Position.Y = 408.000000000000000000
+    TabOrder = 5
+    Text = 'Ekle'
+    OnClick = btnAddClick
+  end
+  object MSConnection1: TMSConnection
+    Database = 'Rehber'
+    Username = 'sa'
+    Server = 'Ahmet'
+    Connected = True
+    LoginPrompt = False
+    Left = 568
+    Top = 328
+    EncryptedPassword = 'CEFFCDFFCCFFCEFFCDFFCCFF'
+  end
+  object MSQuery1: TMSQuery
+    Connection = MSConnection1
+    SQL.Strings = (
+      'Select * from numaraTablosu')
+    Active = True
+    Left = 568
+    Top = 416
+    object MSQuery1id: TIntegerField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'id'
+      ReadOnly = True
+    end
+    object MSQuery1isimSoyisim: TStringField
+      FieldName = 'isimSoyisim'
+      Size = 50
+    end
+    object MSQuery1numara: TIntegerField
+      FieldName = 'numara'
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = MSQuery1
+    ScopeMappings = <>
+    Left = 304
+    Top = 224
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <>
+    end
+  end
+end

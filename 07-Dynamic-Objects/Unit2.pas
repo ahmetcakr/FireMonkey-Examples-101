@@ -41,8 +41,6 @@ end;
 
 
 procedure TForm2.Button1Click(Sender: TObject);
-var
-Stream: TMemoryStream;
 begin
 
       newPanel := TPanel.Create(Self);
