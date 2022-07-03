@@ -1,0 +1,168 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 640.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object btnBack: TButton
+      Action = PreviousTabAction
+      Align = Left
+      Enabled = True
+      ImageIndex = -1
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'arrowlefttoolbutton'
+      TabOrder = 0
+    end
+    object btnNext: TButton
+      Action = NextTabAction
+      Align = Right
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 560.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'arrowrighttoolbutton'
+      TabOrder = 1
+    end
+    object lblTitle: TLabel
+      Action = TitleAction
+      Align = Client
+      Enabled = True
+      Size.Width = 480.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      TabOrder = 2
+    end
+  end
+  object TabControl1: TTabControl
+    Touch.GestureManager = GestureManager1
+    OnGesture = TabControl1Gesture
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 440.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 3
+    TabOrder = 1
+    TabPosition = None
+    Sizes = (
+      640s
+      440s
+      640s
+      440s
+      640s
+      440s
+      640s
+      440s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '1.Item'
+      object Rectangle1: TRectangle
+        Align = Client
+        Fill.Color = xFFBF4F4F
+        Size.Width = 640.000000000000000000
+        Size.Height = 440.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '2.Item'
+      object Rectangle2: TRectangle
+        Align = Client
+        Fill.Color = xFF734F98
+        Size.Width = 640.000000000000000000
+        Size.Height = 440.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '3.Item'
+      object Rectangle3: TRectangle
+        Align = Client
+        Fill.Color = xFF436287
+        Size.Width = 640.000000000000000000
+        Size.Height = 440.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TabItem4: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '4.Item'
+      object Rectangle4: TRectangle
+        Align = Client
+        Fill.Color = xFFB0BF4F
+        Size.Width = 640.000000000000000000
+        Size.Height = 440.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object ActionList1: TActionList
+    OnUpdate = ActionList1Update
+    Left = 488
+    Top = 208
+    object NextTabAction: TNextTabAction
+      Category = 'Tab'
+      TabControl = TabControl1
+    end
+    object PreviousTabAction: TPreviousTabAction
+      Category = 'Tab'
+      TabControl = TabControl1
+    end
+    object TitleAction: TControlAction
+      Category = 'Tab'
+      Text = 'TitleAction'
+    end
+  end
+  object GestureManager1: TGestureManager
+    Sensitivity = 80.000000000000000000
+    Left = 448
+    Top = 280
+  end
+end
