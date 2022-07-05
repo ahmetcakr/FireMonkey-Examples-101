@@ -1,0 +1,801 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 583
+  ClientWidth = 401
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFB845562
+      Offset = 0.295031070709228500
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.080450169742107390
+  Fill.Gradient.StopPosition.X = 0.919549822807312000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object lyLoginButtons: TLayout
+    Align = Center
+    Margins.Left = 50.000000000000000000
+    Margins.Top = 300.000000000000000000
+    Margins.Right = 50.000000000000000000
+    Margins.Bottom = 300.000000000000000000
+    Size.Width = 351.000000000000000000
+    Size.Height = 142.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object recLoginButton: TRectangle
+      Align = Top
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 30.000000000000000000
+      Size.Width = 291.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 15.000000000000000000
+      YRadius = 15.000000000000000000
+      OnClick = recLoginButtonClick
+      object imgLoginBtn: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01B8494441546843ED98814DC4300C450B13300223B0016C001BC006B0016C00
+              1BC006B0016C004C001BC006C77F522D992AEDE52EA91A383FE92B55E2364E6B
+              3BB9EB8220088220F8CD91742F3D4BAB5E5CD3C758B31C48B792393DA66B09DB
+              E67892520EA7F42835C599E41D7C914E24836BFABC0DF734C3B7648E3DD03102
+              6366F745470B9098E6D4A73415DF8C6163F6C549BDDFB7251CF62DBC497C8D31
+              18C3C6F0F76E458D05F8B7E89D1BC3DB34F1053675C82777CE82678730B09826
+              31D7E50036665F1C42B5F0893955E3FD5EC13DCD40589863E8553A9578C3886B
+              FABC8D0FA526F0357E9DEEA426B992FCA6361463D85463AF6F6B42C85C485424
+              AB4A541BC4576A2AF6839DA7560E10F7C77D6BE5715826394E5B4B3EBC4B8BE6
+              0309CA2FB00F29557172C4DEC0338ACF44B97014B8944A9C1E138B3997A68E22
+              4550BFFD39C68B506073C286D021948658786183AD3F7E7831072FA92AA95D16
+              077026E56C2EDC7B23A516C3BF1855E0ADF907938473FC9E65F323B9FD5CC342
+              B015FE04C9F5DC549FCF9F6D4AC22517E6B0F9281693E4EC033CC898E3EC9422
+              7BCE1A3F291765D32FB004FFFB0BFCF90504411004BB4CD7FD00EA68C8134A35
+              B1E90000000049454E44AE426082}
+            FileName = 'C:\Users\ahmet\Downloads\person_FILL0_wght400_GRAD0_opsz48.png'
+          end>
+        Align = Left
+        OnClick = recLoginButtonClick
+      end
+      object lblLoginBtn: TLabel
+        Align = Client
+        StyledSettings = [Family, Size, FontColor]
+        Size.Width = 241.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'LOGIN'
+        TabOrder = 1
+      end
+    end
+    object recRegisterButton: TRectangle
+      Align = Bottom
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 30.000000000000000000
+      Position.Y = 92.000000000000000000
+      Size.Width = 291.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 15.000000000000000000
+      YRadius = 15.000000000000000000
+      OnClick = recRegisterButtonClick
+      object imgRegisterBtn: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0146494441546843ED99E111013110850F7FFCD48A0E74820AE80095508A0E50
+              820AE8807DE466DE10C7C9DEE698FD66DE849BC9DEBE24B349E60AC7719CBF67
+              29BA7CA99368217A492FB44D320AFA86BE087D3BA22D1E3CD20D6DDB1987F609
+              386B33584625D15C7F65065EE20672E30672A36D6020AADC78DA0C92DF8950FA
+              D678A000EFCA8DF37864D030C1F14CD888F8A5A9263896199A26388E295A2638
+              86391A26B87F94AAC39C46399C8B509D4A606A7AFFF9119C78ED8327BBD7549D
+              99E07E5172ECC44311CF4A1255D382BA9ECA4CC4C91E44B8619D6FFFDEC3236F
+              7E77C152E125B017D51D79EE6F8A46F2806398A1953CE0382668260F3856E34C
+              44FCC2D4E401C733A1DC7D359207E60600CAAF46F2E0AD01F3DA5A134E3C9AAB
+              DF8973E30672E3063E20E50347C931B44FFCCA0C60838CD2760318F99548E36E
+              E2388EA34E515C0101659EB9AFF853130000000049454E44AE426082}
+            FileName = 'C:\Users\ahmet\Downloads\login_FILL0_wght400_GRAD0_opsz48.png'
+          end>
+        Align = Left
+        OnClick = recRegisterButtonClick
+      end
+      object lblRegisterBtn: TLabel
+        Align = Client
+        StyledSettings = [Family, Size, FontColor]
+        Size.Width = 241.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'REGISTER'
+        TabOrder = 1
+      end
+    end
+    object FloatAnimation2: TFloatAnimation
+      Duration = 0.200000002980232200
+      OnFinish = FloatAnimation2Finish
+      PropertyName = 'Height'
+      StartValue = 0.000000000000000000
+      StopValue = 142.000000000000000000
+    end
+  end
+  object lyLoginEdits: TRectangle
+    Align = Center
+    Fill.Color = xFF4B4A4A
+    Padding.Left = 25.000000000000000000
+    Padding.Top = 25.000000000000000000
+    Padding.Right = 25.000000000000000000
+    Padding.Bottom = 25.000000000000000000
+    Margins.Left = 25.000000000000000000
+    Margins.Top = 150.000000000000000000
+    Margins.Right = 25.000000000000000000
+    Margins.Bottom = 150.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 442.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    Visible = False
+    XRadius = 15.000000000000000000
+    YRadius = 15.000000000000000000
+    object lblLoginKullaniciAdi: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 74.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'Username :'
+      TabOrder = 0
+    end
+    object editLoginKullaniciAdi: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 1
+      TextSettings.HorzAlign = Center
+      Position.X = 50.000000000000000000
+      Position.Y = 122.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'username'
+      StyledSettings = [Family, Size, Style]
+      object ClearEditButton1: TClearEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 32.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object lblLoginSifre: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 204.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'Password :'
+      TabOrder = 2
+    end
+    object editLoginSifre: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 3
+      Password = True
+      TextSettings.HorzAlign = Center
+      Position.X = 50.000000000000000000
+      Position.Y = 252.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = '**********'
+      StyledSettings = [Family, Size, Style]
+      object PasswordEditButton1: TPasswordEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 28.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object FloatAnimation1: TFloatAnimation
+      Duration = 0.300000011920929000
+      OnFinish = FloatAnimation1Finish
+      PropertyName = 'Height'
+      StartValue = 0.000000000000000000
+      StopValue = 442.000000000000000000
+    end
+    object lyLoginEditsTop: TLayout
+      Align = Top
+      Margins.Left = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object btnLoginEditsBack: TRectangle
+        Align = Left
+        Fill.Color = claWhite
+        Size.Width = 24.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 12.000000000000000000
+        YRadius = 12.000000000000000000
+        OnClick = btnLoginEditsBackClick
+        object imgBtnBack: TImage
+          MultiResBitmap.Height = 48
+          MultiResBitmap.Width = 48
+          MultiResBitmap = <
+            item
+              Width = 48
+              Height = 48
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                009B494441546843EDD7C10D83300C85E1C0A41D05368009E8886C00B1E203CA
+                A1AA00131BFD9F64D9C7E7288724010060E8936B29633C127ED3325BA2D77EB7
+                FAE43BED211C4F5EEA9B2B0CC2B742F85608DF0AE15B21FCDDFE7DA348F8E3DB
+                66CD3595D1DCA8FDB4FAE49FAE9FAC5EA38FB97285E6329A1BB45F565FA5903F
+                2D96F08225BC60092F58C20B96F0E2754BC81C92040F1B1E00E05D4A3B3EAE89
+                712F8C1FD60000000049454E44AE426082}
+              FileName = 
+                'C:\Users\ahmet\Downloads\arrow_back_FILL0_wght400_GRAD0_opsz48.p' +
+                'ng'
+            end>
+          Align = Client
+          Size.Width = 24.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = btnLoginEditsBackClick
+        end
+      end
+    end
+    object recBtnLogin: TRectangle
+      Align = Top
+      Margins.Left = 100.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 100.000000000000000000
+      Position.X = 125.000000000000000000
+      Position.Y = 334.000000000000000000
+      Size.Width = 151.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 12.000000000000000000
+      YRadius = 12.000000000000000000
+      object imgLogin: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01B8494441546843ED98814DC4300C450B13300223B0016C001BC006B0016C00
+              1BC006B0016C004C001BC006C77F522D992AEDE52EA91A383FE92B55E2364E6B
+              3BB9EB8220088220F8CD91742F3D4BAB5E5CD3C758B31C48B792393DA66B09DB
+              E67892520EA7F42835C599E41D7C914E24836BFABC0DF734C3B7648E3DD03102
+              6366F745470B9098E6D4A73415DF8C6163F6C549BDDFB7251CF62DBC497C8D31
+              18C3C6F0F76E458D05F8B7E89D1BC3DB34F1053675C82777CE82678730B09826
+              31D7E50036665F1C42B5F0893955E3FD5EC13DCD40589863E8553A9578C3886B
+              FABC8D0FA526F0357E9DEEA426B992FCA6361463D85463AF6F6B42C85C485424
+              AB4A541BC4576A2AF6839DA7560E10F7C77D6BE5715826394E5B4B3EBC4B8BE6
+              0309CA2FB00F29557172C4DEC0338ACF44B97014B8944A9C1E138B3997A68E22
+              4550BFFD39C68B506073C286D021948658786183AD3F7E7831072FA92AA95D16
+              077026E56C2EDC7B23A516C3BF1855E0ADF907938473FC9E65F323B9FD5CC342
+              B015FE04C9F5DC549FCF9F6D4AC22517E6B0F9281693E4EC033CC898E3EC9422
+              7BCE1A3F291765D32FB004FFFB0BFCF90504411004BB4CD7FD00EA68C8134A35
+              B1E90000000049454E44AE426082}
+            FileName = 'C:\Users\ahmet\Downloads\person_FILL0_wght400_GRAD0_opsz48.png'
+          end>
+        Align = FitLeft
+        Size.Width = 16.457145690917970000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object lblLogin: TLabel
+        Align = Client
+        Size.Width = 134.542846679687500000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = 'LOGIN'
+        TabOrder = 1
+      end
+    end
+  end
+  object lyRegisterEdits: TRectangle
+    Align = Center
+    Fill.Color = xFF4B4A4A
+    Padding.Left = 25.000000000000000000
+    Padding.Top = 25.000000000000000000
+    Padding.Right = 25.000000000000000000
+    Padding.Bottom = 25.000000000000000000
+    Margins.Left = 25.000000000000000000
+    Margins.Top = 150.000000000000000000
+    Margins.Right = 25.000000000000000000
+    Margins.Bottom = 150.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 650.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    Visible = False
+    XRadius = 15.000000000000000000
+    YRadius = 15.000000000000000000
+    object lblRegisterKullaniciAdi: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 184.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'Kullan'#305'c'#305' Ad'#305' :'
+      TabOrder = 5
+    end
+    object editRegisterKullaniciAdi: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 10
+      TextSettings.HorzAlign = Center
+      Position.X = 50.000000000000000000
+      Position.Y = 212.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'username'
+      StyledSettings = [Family, Size, Style]
+      object ClearEditButton2: TClearEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 32.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object lblRegisterSifre: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 249.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'Sifre :'
+      TabOrder = 12
+    end
+    object editRegisterSifre: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 14
+      Password = True
+      TextSettings.HorzAlign = Center
+      Position.X = 50.000000000000000000
+      Position.Y = 277.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = '**********'
+      StyledSettings = [Family, Size, Style]
+      object PasswordEditButton2: TPasswordEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 28.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object FloatAnimation3: TFloatAnimation
+      Duration = 0.400000005960464500
+      OnFinish = FloatAnimation3Finish
+      PropertyName = 'Height'
+      StartValue = 0.000000000000000000
+      StopValue = 650.000000000000000000
+    end
+    object lyRegisterBackBtn: TLayout
+      Align = Top
+      Margins.Left = 25.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 15
+      object recRegisterBackBtn: TRectangle
+        Align = Left
+        Fill.Color = claWhite
+        Size.Width = 24.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 12.000000000000000000
+        YRadius = 12.000000000000000000
+        OnClick = recRegisterBackBtnClick
+        object imgRegisterBackBtn: TImage
+          MultiResBitmap.Height = 48
+          MultiResBitmap.Width = 48
+          MultiResBitmap = <
+            item
+              Width = 48
+              Height = 48
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                009B494441546843EDD7C10D83300C85E1C0A41D05368009E8886C00B1E203CA
+                A1AA00131BFD9F64D9C7E7288724010060E8936B29633C127ED3325BA2D77EB7
+                FAE43BED211C4F5EEA9B2B0CC2B742F85608DF0AE15B21FCDDFE7DA348F8E3DB
+                66CD3595D1DCA8FDB4FAE49FAE9FAC5EA38FB97285E6329A1BB45F565FA5903F
+                2D96F08225BC60092F58C20B96F0E2754BC81C92040F1B1E00E05D4A3B3EAE89
+                712F8C1FD60000000049454E44AE426082}
+              FileName = 
+                'C:\Users\ahmet\Downloads\arrow_back_FILL0_wght400_GRAD0_opsz48.p' +
+                'ng'
+            end>
+          Align = Client
+          Size.Width = 24.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = recRegisterBackBtnClick
+        end
+      end
+    end
+    object recRegisterbtn: TRectangle
+      Align = Top
+      Margins.Left = 100.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 100.000000000000000000
+      Position.X = 125.000000000000000000
+      Position.Y = 617.000000000000000000
+      Size.Width = 151.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 12.000000000000000000
+      YRadius = 12.000000000000000000
+      object imgRegister: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01B8494441546843ED98814DC4300C450B13300223B0016C001BC006B0016C00
+              1BC006B0016C004C001BC006C77F522D992AEDE52EA91A383FE92B55E2364E6B
+              3BB9EB8220088220F8CD91742F3D4BAB5E5CD3C758B31C48B792393DA66B09DB
+              E67892520EA7F42835C599E41D7C914E24836BFABC0DF734C3B7648E3DD03102
+              6366F745470B9098E6D4A73415DF8C6163F6C549BDDFB7251CF62DBC497C8D31
+              18C3C6F0F76E458D05F8B7E89D1BC3DB34F1053675C82777CE82678730B09826
+              31D7E50036665F1C42B5F0893955E3FD5EC13DCD40589863E8553A9578C3886B
+              FABC8D0FA526F0357E9DEEA426B992FCA6361463D85463AF6F6B42C85C485424
+              AB4A541BC4576A2AF6839DA7560E10F7C77D6BE5715826394E5B4B3EBC4B8BE6
+              0309CA2FB00F29557172C4DEC0338ACF44B97014B8944A9C1E138B3997A68E22
+              4550BFFD39C68B506073C286D021948658786183AD3F7E7831072FA92AA95D16
+              077026E56C2EDC7B23A516C3BF1855E0ADF907938473FC9E65F323B9FD5CC342
+              B015FE04C9F5DC549FCF9F6D4AC22517E6B0F9281693E4EC033CC898E3EC9422
+              7BCE1A3F291765D32FB004FFFB0BFCF90504411004BB4CD7FD00EA68C8134A35
+              B1E90000000049454E44AE426082}
+            FileName = 'C:\Users\ahmet\Downloads\person_FILL0_wght400_GRAD0_opsz48.png'
+          end>
+        Align = FitLeft
+        Size.Width = 16.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object lblRegisterPageBtn: TLabel
+        Align = Client
+        Size.Width = 135.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = 'REGISTER'
+        TabOrder = 1
+      end
+    end
+    object editRegisterEposta: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 9
+      TextSettings.HorzAlign = Center
+      Position.X = 50.000000000000000000
+      Position.Y = 407.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'email@gmail.com'
+      StyledSettings = [Family, Size, Style]
+      object ClearEditButton3: TClearEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 32.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object lblRegisterEposta: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 379.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'E-posta :'
+      TabOrder = 0
+    end
+    object lblRegisterSifreOnay: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 314.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'Sifre Onay :'
+      TabOrder = 11
+    end
+    object editRegisterSifreOnay: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 13
+      Password = True
+      TextSettings.HorzAlign = Center
+      Position.X = 50.000000000000000000
+      Position.Y = 342.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = '**********'
+      StyledSettings = [Family, Size, Style]
+      OnChangeTracking = editRegisterSifreOnayChangeTracking
+      object PasswordEditButton3: TPasswordEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 28.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object editRegisterTelefon: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 8
+      TextSettings.HorzAlign = Center
+      Position.X = 50.000000000000000000
+      Position.Y = 472.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = '0530-000-00-00'
+      StyledSettings = [Family, Size, Style]
+      object ClearEditButton4: TClearEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 32.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object lblRegisterTelefon: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 444.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'Telefon :'
+      TabOrder = 4
+    end
+    object lblRegisterAd: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 54.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'Ad :'
+      TabOrder = 2
+    end
+    object editRegisterAd: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 7
+      TextSettings.HorzAlign = Center
+      Position.X = 50.000000000000000000
+      Position.Y = 82.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Ahmet'
+      StyledSettings = [Family, Size, Style]
+      object ClearEditButton5: TClearEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 32.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object lblRegisterSoyad: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 119.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'Soyad :'
+      TabOrder = 1
+    end
+    object editRegisterSoyad: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 6
+      TextSettings.HorzAlign = Center
+      Position.X = 50.000000000000000000
+      Position.Y = 147.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Cakir'
+      StyledSettings = [Family, Size, Style]
+      object ClearEditButton6: TClearEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 32.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object lblRegisterCinsiyet: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 509.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      Text = 'Cinsiyet :'
+      TabOrder = 3
+    end
+    object recCinsiyet: TRectangle
+      Align = Top
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 25.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 537.000000000000000000
+      Size.Width = 301.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      object rbtnErkek: TRadioButton
+        Align = Left
+        IsChecked = True
+        Size.Width = 120.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Erkek'
+      end
+      object rbtnKadin: TRadioButton
+        Align = Right
+        Position.X = 181.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Kad'#305'n'
+      end
+    end
+  end
+end
